@@ -6,6 +6,7 @@ import { useCompare } from "@/context/CompareContext";
 import { useVariant } from "@/context/VariantContext";
 import { getModelBySlug, formatCapacity, formatValue } from "@/lib/helpers";
 import type { Model } from "@/lib/helpers";
+import TermosRadarChart from "@/components/TermosRadarChart";
 
 const SPEC_ROWS = [
   { key: "capacity", label: "Kapasite" },
@@ -87,6 +88,14 @@ export default function ComparePage() {
             </button>
           </div>
         </div>
+
+        {/* Radar Chart (For 2 or more items) */}
+        {models.length >= 2 && (
+          <TermosRadarChart
+            models={models}
+            activeVariants={models.map((m) => getActiveVariant(m.slug))}
+          />
+        )}
 
         {/* Comparison Table */}
         <div className="glass-card overflow-hidden p-0">
