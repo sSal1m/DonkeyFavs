@@ -1,0 +1,268 @@
+[
+  {
+    "name": "AeroLight Transit Termos Bardak",
+    "slug": "aerolight-transit-termos-bardak",
+    "lidType": "Kilitlenebilir, içilebilir kapak",
+    "leakProof": "Sızdırmaz",
+    "variants": [
+      {
+        "capacity": 0.35,
+        "heatRetention": "Sıcak: 4 saat, Soğuk: 6 saat, Buz: 20 saat",
+        "weight": "180g",
+        "dimensions": "163 x 69 x 69 mm"
+      },
+      {
+        "capacity": 0.47,
+        "heatRetention": "Sıcak: 6 saat, Soğuk: 8 saat, Buz: 30 saat",
+        "weight": "240g",
+        "dimensions": "202 x 69 x 69 mm"
+      },
+      {
+        "capacity": 0.60,
+        "heatRetention": "Sıcak: 8 saat, Soğuk: 12 saat, Buz: 40 saat",
+        "weight": "272g",
+        "dimensions": "69 × 71 × 241 mm"
+      }
+    ]
+  },
+  {
+    "name": "IceFlow Flip Straw Termos",
+    "slug": "iceflow-flip-straw-termos",
+    "lidType": "Kapatılabilir pipetli kapak",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.60,
+        "heatRetention": "Soğuk: 7 saat, Buz: 35 saat",
+        "weight": "450g",
+        "dimensions": "106 × 101 × 199 mm"
+      },
+      {
+        "capacity": 0.89,
+        "heatRetention": "Soğuk: 12 saat, Buz: 48 saat",
+        "weight": "600g",
+        "dimensions": "90 × 104 × 248 mm"
+      }
+    ]
+  },
+  {
+    "name": "Quencher ProTour Flip Straw Termos",
+    "slug": "quencher-protour-flip-straw-termos",
+    "lidType": "Kilitlenebilir pipetli kapak",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.60,
+        "heatRetention": "Soğuk: 8 saat, Buz: 30 saat",
+        "weight": "381g",
+        "dimensions": "134 × 90 × 192 mm"
+      },
+      {
+        "capacity": 1.18,
+        "heatRetention": "Soğuk: 11 saat, Buz: 48 saat",
+        "weight": "680g",
+        "dimensions": "148 × 100 × 274 mm"
+      }
+    ]
+  },
+  {
+    "name": "Quencher Pipetli Termos Bardak",
+    "slug": "quencher-pipetli-termos-bardak",
+    "lidType": "3 pozisyonlu FlowState™ pipet kapağı",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.60,
+        "heatRetention": "-",
+        "weight": "320g",
+        "dimensions": "135 × 71 × 228 mm"
+      }
+    ]
+  },
+  {
+    "name": "Quencher H2.O FlowState Tumbler",
+    "slug": "quencher-h2-o-flowstate-tumbler",
+    "lidType": "3 pozisyonlu FlowState™ pipet kapağı",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.89,
+        "heatRetention": "Soğuk: 9 saat, Buz: 40 saat",
+        "weight": "540g",
+        "dimensions": "138 × 90 × 280 mm"
+      },
+      {
+        "capacity": 1.18,
+        "heatRetention": "Soğuk: 11 saat, Buz: 48 saat",
+        "weight": "650g",
+        "dimensions": "148 × 100 × 318 mm"
+      }
+    ]
+  },
+  {
+    "name": "Quencher H2.0 Fluted Tumbler",
+    "slug": "quencher-h2-0-fluted-tumbler",
+    "lidType": "3 pozisyonlu FlowState™ pipet kapağı",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.60,
+        "heatRetention": "-",
+        "weight": "360g",
+        "dimensions": "135 × 71 × 228 mm"
+      },
+      {
+        "capacity": 0.89,
+        "heatRetention": "-",
+        "weight": "539g",
+        "dimensions": "90 × 138 × 280 mm"
+      },
+      {
+        "capacity": 1.18,
+        "heatRetention": "Soğuk: 11 saat, Buz: 48 saat",
+        "weight": "650g",
+        "dimensions": "148 × 100 × 318 mm"
+      }
+    ]
+  },
+  {
+    "name": "Stanley Wellspring Bottle",
+    "slug": "stanley-wellspring-bottle",
+    "lidType": "Basmalı kapak (içime uygun)",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.70,
+        "heatRetention": "Soğuk: 12 saat, Buz: 40 saat",
+        "weight": "386g",
+        "dimensions": "80 × 79 × 250 mm"
+      }
+    ]
+  },
+  {
+    "name": "The Everyday Suburban Mug",
+    "slug": "the-everyday-suburban-mug",
+    "lidType": "Tritan içim kapağı",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.47,
+        "heatRetention": "Sıcak: 1.5 saat, Soğuk: 5 saat, Buz: 20 saat",
+        "weight": "-",
+        "dimensions": "105 × 85 × 179 mm"
+      },
+      {
+        "capacity": 0.71,
+        "heatRetention": "Sıcak: 2.5 saat, Soğuk: 7 saat, Buz: 30 saat",
+        "weight": "-",
+        "dimensions": "118 × 99 × 196 mm"
+      }
+    ]
+  },
+  {
+    "name": "The All Day Slim Su Sisesi",
+    "slug": "the-all-day-slim-su-sisesi",
+    "lidType": "Kilitlenebilir pipetli kapak",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.35,
+        "heatRetention": "Sıcak: ~2 saat, Soğuk: 3 saat, Buz: 9 saat",
+        "weight": "290g",
+        "dimensions": "73 × 73 × 264 mm"
+      },
+      {
+        "capacity": 0.60,
+        "heatRetention": "Sıcak: 4 saat, Soğuk: 11 saat",
+        "weight": "290g",
+        "dimensions": "73 × 73 × 264 mm"
+      }
+    ]
+  },
+  {
+    "name": "IceFlow Fast Flow Soguk Su Termosu",
+    "slug": "iceflow-fast-flow-soguk-su-termosu",
+    "lidType": "Basmalı kapak",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.70,
+        "heatRetention": "Soğuk: 10 saat, Buz: 48 saat",
+        "weight": "400g",
+        "dimensions": "100 × 79 × 284 mm"
+      }
+    ]
+  },
+  {
+    "name": "Adventure To-Go Termos",
+    "slug": "adventure-to-go-termos",
+    "lidType": "İzoleli vidalı kapak (fincan olur)",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.75,
+        "heatRetention": "Sıcak: 20 saat, Soğuk: 25 saat, Buz: 96 saat",
+        "weight": "512g",
+        "dimensions": "278 × 81 × 81 mm"
+      },
+      {
+        "capacity": 1.00,
+        "heatRetention": "Sıcak: 25 saat, Soğuk: 27 saat, Buz: 120 saat",
+        "weight": "670g",
+        "dimensions": "303 × 88 × 88 mm"
+      }
+    ]
+  },
+  {
+    "name": "IceFlow Flip Straw 2.0 Pipetli Termos",
+    "slug": "iceflow-flip-straw-2-0-pipetli-termos",
+    "lidType": "Kapatılabilir pipetli kapak",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.47,
+        "heatRetention": "Soğuk: 8 saat, Buz: 40 saat",
+        "weight": "320g",
+        "dimensions": "90 × 85 × 210 mm"
+      },
+      {
+        "capacity": 0.70,
+        "heatRetention": "Soğuk: 10 saat, Buz: 72 saat",
+        "weight": "390g",
+        "dimensions": "-"
+      },
+      {
+        "capacity": 1.06,
+        "heatRetention": "-",
+        "weight": "-",
+        "dimensions": "-"
+      }
+    ]
+  },
+  {
+    "name": "Go Quick Flip Water Bottle",
+    "slug": "go-quick-flip-water-bottle",
+    "lidType": "Basmalı Quick-Flip kapak",
+    "leakProof": "Evet",
+    "variants": [
+      {
+        "capacity": 0.47,
+        "heatRetention": "Soğuk: 7 saat, Buz: 30 saat",
+        "weight": "320g",
+        "dimensions": "76 × 76 × 203 mm"
+      },
+      {
+        "capacity": 0.70,
+        "heatRetention": "Sıcak: 8 saat, Soğuk: 12 saat, Buz: 40 saat",
+        "weight": "420g",
+        "dimensions": "76 × 76 × 276 mm"
+      },
+      {
+        "capacity": 1.06,
+        "heatRetention": "Soğuk: 18 saat, Buz: 60 saat",
+        "weight": "530g",
+        "dimensions": "87 × 87 × 290 mm"
+      }
+    ]
+  }
+]
