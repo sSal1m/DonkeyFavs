@@ -5,6 +5,7 @@ export interface Variant {
   heatRetention: string;
   weight: string;
   dimensions: string;
+  price?: string;
 }
 
 export interface Model {
@@ -73,9 +74,16 @@ export function parseWeight(text: string): number {
   return match ? parseFloat(match[1]) : 0;
 }
 
+export function parsePriceNumber(text: string | undefined): number {
+  if (!text || text === "Stokta Yok" || text === "Fiyat bilgisi çekilemedi") return 0;
+  const nums = text.replace(/[^\d]/g, '');
+  return parseInt(nums, 10);
+}
+
 export function getRadarDataProps(models: Model[], activeVariants: number[]) {
   const allModels = getAllModels();
   let maxCap = 0, maxHot = 0, maxCold = 0, maxIced = 0, maxWeight = 0, minWeight = Infinity;
+  let maxPrice = 0, minPrice = Infinity;
   let minCap = Infinity;
 
   allModels.forEach(m => {
@@ -91,10 +99,15 @@ export function getRadarDataProps(models: Model[], activeVariants: number[]) {
       const w = parseWeight(v.weight);
       if (w > maxWeight) maxWeight = w;
       if (w > 0 && w < minWeight) minWeight = w;
+
+      const p = parsePriceNumber(v.price);
+      if (p > maxPrice) maxPrice = p;
+      if (p > 0 && p < minPrice) minPrice = p;
     });
   });
 
   if (minWeight === Infinity) minWeight = 0;
+  if (minPrice === Infinity) minPrice = 0;
 
   const normalize = (val: number, min: number, max: number) => {
     if (max === min) return 50;
@@ -103,10 +116,20 @@ export function getRadarDataProps(models: Model[], activeVariants: number[]) {
     return ((val - min) / (max - min)) * 100;
   };
 
+  const normalizePrice = (val: number, min: number, max: number) => {
+    if (val === 0) return 0; // Stokta Yok => 0 point
+    if (max === min) return 50;
+    if (val < min) val = min;
+    if (val > max) val = max;
+    const score = 100 - (((val - min) / (max - min)) * 100);
+    return Math.max(5, score); // give at least 5 pts so it's visible if expensive
+  };
+
   const getVariant = (model: Model, idx: number) => model.variants[idx] || model.variants[0];
 
   const result = [
     { subject: "Kapasite" } as Record<string, any>,
+    { subject: "Fiyat" } as Record<string, any>,
     { subject: "Sıcak" } as Record<string, any>,
     { subject: "Soğuk" } as Record<string, any>,
     { subject: "Buzlu" } as Record<string, any>,
@@ -120,21 +143,25 @@ export function getRadarDataProps(models: Model[], activeVariants: number[]) {
     const hr = parseHeatRetention(v.heatRetention);
     const w = parseWeight(v.weight);
     const light = w > 0 ? maxWeight - w : 0;
+    const p = parsePriceNumber(v.price);
 
     result[0][i] = normalize(v.capacity, 0, maxCap);
     result[0][`real_${i}`] = formatCapacity(v.capacity);
 
-    result[1][i] = normalize(hr.hot, 0, maxHot);
-    result[1][`real_${i}`] = hr.hot > 0 ? `${hr.hot}s` : "-";
+    result[1][i] = normalizePrice(p, minPrice, maxPrice);
+    result[1][`real_${i}`] = v.price && v.price !== "Fiyat bilgisi çekilemedi" && v.price !== "Stokta Yok" ? v.price : "Stokta Yok";
 
-    result[2][i] = normalize(hr.cold, 0, maxCold);
-    result[2][`real_${i}`] = hr.cold > 0 ? `${hr.cold}s` : "-";
+    result[2][i] = normalize(hr.hot, 0, maxHot);
+    result[2][`real_${i}`] = hr.hot > 0 ? `${hr.hot}s` : "-";
 
-    result[3][i] = normalize(hr.iced, 0, maxIced);
-    result[3][`real_${i}`] = hr.iced > 0 ? `${hr.iced}s` : "-";
+    result[3][i] = normalize(hr.cold, 0, maxCold);
+    result[3][`real_${i}`] = hr.cold > 0 ? `${hr.cold}s` : "-";
 
-    result[4][i] = normalize(light, 0, maxLight);
-    result[4][`real_${i}`] = w > 0 ? `${w}g` : "-";
+    result[4][i] = normalize(hr.iced, 0, maxIced);
+    result[4][`real_${i}`] = hr.iced > 0 ? `${hr.iced}s` : "-";
+
+    result[5][i] = normalize(light, 0, maxLight);
+    result[5][`real_${i}`] = w > 0 ? `${w}g` : "-";
   });
 
   return result;

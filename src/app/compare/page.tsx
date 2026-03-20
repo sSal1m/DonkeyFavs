@@ -10,6 +10,7 @@ import TermosRadarChart from "@/components/TermosRadarChart";
 import FateFlip from "@/components/FateFlip";
 
 const SPEC_ROWS = [
+  { key: "price", label: "Fiyat" },
   { key: "capacity", label: "Kapasite" },
   { key: "heatRetention", label: "Isı Koruması" },
   { key: "lidType", label: "Kapak Tipi" },
@@ -21,6 +22,8 @@ const SPEC_ROWS = [
 function getSpecValue(model: Model, variantIdx: number, key: string): string {
   const variant = model.variants[variantIdx] || model.variants[0];
   switch (key) {
+    case "price":
+      return variant.price ? variant.price : "Fiyat bilgisi çekilemedi";
     case "capacity":
       return formatCapacity(variant.capacity);
     case "heatRetention":

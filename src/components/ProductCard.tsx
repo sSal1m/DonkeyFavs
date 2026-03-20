@@ -19,6 +19,14 @@ export default function ProductCard({ model }: ProductCardProps) {
   const variant = model.variants[activeIdx] || model.variants[0];
   const inCompare = isInCompare(model.slug);
 
+  const startingPrice = model.variants.reduce((prev, curr) => {
+    if (!curr.price || curr.price === "Fiyat bilgisi çekilemedi") return prev;
+    const currNum = parseInt(curr.price.replace(/[^\d]/g, ''), 10);
+    const prevNum = parseInt((prev || "").replace(/[^\d]/g, ''), 10);
+    if (!prevNum) return curr.price;
+    return currNum < prevNum ? curr.price : prev;
+  }, "");
+
   return (
     <div className="glass-card flex h-full flex-col overflow-hidden">
       {/* Image display */}
@@ -49,10 +57,17 @@ export default function ProductCard({ model }: ProductCardProps) {
       </div>
 
       <div className="flex flex-1 flex-col p-4 sm:p-5">
-        {/* Name */}
-        <h3 className="mb-2 text-base font-bold leading-tight text-text-primary sm:text-lg">
-          {model.name}
-        </h3>
+        {/* Name & Price */}
+        <div className="mb-2">
+          <h3 className="text-base font-bold leading-tight text-text-primary sm:text-lg">
+            {model.name}
+          </h3>
+          {startingPrice && (
+            <p className="mt-1 text-xs font-medium text-accent">
+              <span className="text-lg font-bold">{startingPrice}</span>&apos;den başlayan fiyatlarla
+            </p>
+          )}
+        </div>
 
         {/* Variant pills */}
         {model.variants.length > 1 && (

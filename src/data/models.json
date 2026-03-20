@@ -9,19 +9,22 @@
         "capacity": 0.35,
         "heatRetention": "Sıcak: 4 saat, Soğuk: 6 saat, Buz: 20 saat",
         "weight": "180g",
-        "dimensions": "163 x 69 x 69 mm"
+        "dimensions": "163 x 69 x 69 mm",
+        "price": "2.129 TL"
       },
       {
         "capacity": 0.47,
         "heatRetention": "Sıcak: 6 saat, Soğuk: 8 saat, Buz: 30 saat",
         "weight": "240g",
-        "dimensions": "202 x 69 x 69 mm"
+        "dimensions": "202 x 69 x 69 mm",
+        "price": "2.599 TL"
       },
       {
         "capacity": 0.6,
         "heatRetention": "Sıcak: 8 saat, Soğuk: 12 saat, Buz: 40 saat",
         "weight": "272g",
-        "dimensions": "69 × 71 × 241 mm"
+        "dimensions": "69 × 71 × 241 mm",
+        "price": "2.929 TL"
       }
     ],
     "imageUrl": "https://www.atlaskamp.com/stanley-the-aerolight-transit-termos-bardak-047-lt-10-10787-121-stanley-10-10787-121-92565-77-O.jpg"
@@ -36,13 +39,15 @@
         "capacity": 0.6,
         "heatRetention": "Soğuk: 7 saat, Buz: 35 saat",
         "weight": "450g",
-        "dimensions": "106 × 101 × 199 mm"
+        "dimensions": "106 × 101 × 199 mm",
+        "price": "2.999 TL"
       },
       {
         "capacity": 0.89,
         "heatRetention": "Soğuk: 12 saat, Buz: 48 saat",
         "weight": "600g",
-        "dimensions": "90 × 104 × 248 mm"
+        "dimensions": "90 × 104 × 248 mm",
+        "price": "3.329 TL"
       }
     ],
     "imageUrl": "https://www.stanley.no/pub_images/original/45267.png"
@@ -57,13 +62,15 @@
         "capacity": 0.6,
         "heatRetention": "Soğuk: 8 saat, Buz: 30 saat",
         "weight": "381g",
-        "dimensions": "134 × 90 × 192 mm"
+        "dimensions": "134 × 90 × 192 mm",
+        "price": "2.999 TL"
       },
       {
         "capacity": 1.18,
         "heatRetention": "Soğuk: 11 saat, Buz: 48 saat",
         "weight": "680g",
-        "dimensions": "148 × 100 × 274 mm"
+        "dimensions": "148 × 100 × 274 mm",
+        "price": "4.259 TL"
       }
     ],
     "imageUrl": "https://stanleybottleinc.com/wp-content/uploads/2025/10/Web_PNG_Square-The_Quencher_ProTour_Flip_Straw_Tumbler_14OZ_-_Cashmere_-_Front.png"
@@ -78,7 +85,8 @@
         "capacity": 0.6,
         "heatRetention": "-",
         "weight": "320g",
-        "dimensions": "135 × 71 × 228 mm"
+        "dimensions": "135 × 71 × 228 mm",
+        "price": "2.669 TL"
       }
     ],
     "imageUrl": "https://cdn.karaca.com/image/banner/153.09.01.7360.jpg"
@@ -93,13 +101,15 @@
         "capacity": 0.89,
         "heatRetention": "Soğuk: 9 saat, Buz: 40 saat",
         "weight": "540g",
-        "dimensions": "138 × 90 × 280 mm"
+        "dimensions": "138 × 90 × 280 mm",
+        "price": "3.329 TL"
       },
       {
         "capacity": 1.18,
         "heatRetention": "Soğuk: 11 saat, Buz: 48 saat",
         "weight": "650g",
-        "dimensions": "148 × 100 × 318 mm"
+        "dimensions": "148 × 100 × 318 mm",
+        "price": "3.929 TL"
       }
     ],
     "imageUrl": "https://m.media-amazon.com/images/I/713M33yoSlL._AC_SL1500_.jpg"
@@ -114,19 +124,22 @@
         "capacity": 0.6,
         "heatRetention": "-",
         "weight": "360g",
-        "dimensions": "135 × 71 × 228 mm"
+        "dimensions": "135 × 71 × 228 mm",
+        "price": "2.999 TL"
       },
       {
         "capacity": 0.89,
         "heatRetention": "-",
         "weight": "539g",
-        "dimensions": "90 × 138 × 280 mm"
+        "dimensions": "90 × 138 × 280 mm",
+        "price": "3.659 TL"
       },
       {
         "capacity": 1.18,
         "heatRetention": "Soğuk: 11 saat, Buz: 48 saat",
         "weight": "650g",
-        "dimensions": "148 × 100 × 318 mm"
+        "dimensions": "148 × 100 × 318 mm",
+        "price": "3.999 TL"
       }
     ],
     "imageUrl": "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Stanley-The-Quencher-H2.0-Wisteria-Shine-Fluted-Tumbler-40-oz-_400864-front-US.jpg"
@@ -141,7 +154,8 @@
         "capacity": 0.7,
         "heatRetention": "Soğuk: 12 saat, Buz: 40 saat",
         "weight": "386g",
-        "dimensions": "80 × 79 × 250 mm"
+        "dimensions": "80 × 79 × 250 mm",
+        "price": "2.859 TL"
       }
     ],
     "imageUrl": "https://www.stanley.no/pub_images/original/50981.png"
@@ -156,13 +170,15 @@
         "capacity": 0.47,
         "heatRetention": "Sıcak: 1.5 saat, Soğuk: 5 saat, Buz: 20 saat",
         "weight": "-",
-        "dimensions": "105 × 85 × 179 mm"
+        "dimensions": "105 × 85 × 179 mm",
+        "price": "2.669 TL"
       },
       {
         "capacity": 0.71,
         "heatRetention": "Sıcak: 2.5 saat, Soğuk: 7 saat, Buz: 30 saat",
         "weight": "-",
-        "dimensions": "118 × 99 × 196 mm"
+        "dimensions": "118 × 99 × 196 mm",
+        "price": "2.999 TL"
       }
     ],
     "imageUrl": "https://cdn.cookoutstanley.com/cdn/2138/2025/11/11/STANLEY-The-Everyday-Suburban-Mug--16-oz--Drink-Through-Lid--Cup-for-Coffee-Tea-and-Drinks--Insulated-Stainless-Steel-Coffee-Mug--BPAFree--Black-20Dri-6464108-5865.jpg"
@@ -177,13 +193,15 @@
         "capacity": 0.35,
         "heatRetention": "Sıcak: ~2 saat, Soğuk: 3 saat, Buz: 9 saat",
         "weight": "290g",
-        "dimensions": "73 × 73 × 264 mm"
+        "dimensions": "73 × 73 × 264 mm",
+        "price": "2.679 TL"
       },
       {
         "capacity": 0.6,
         "heatRetention": "Sıcak: 4 saat, Soğuk: 11 saat",
         "weight": "290g",
-        "dimensions": "73 × 73 × 264 mm"
+        "dimensions": "73 × 73 × 264 mm",
+        "price": "2.999 TL"
       }
     ],
     "imageUrl": "https://optimage.exxeselection.com/product/cache/1200x1800_stanley-the-all-day-slim-bottle-060-lt-su-sisesi-unisex-termos-10-12069-krem-3111424-59-B.jpg"
@@ -198,7 +216,8 @@
         "capacity": 0.7,
         "heatRetention": "Soğuk: 10 saat, Buz: 48 saat",
         "weight": "400g",
-        "dimensions": "100 × 79 × 284 mm"
+        "dimensions": "100 × 79 × 284 mm",
+        "price": "2.789 TL"
       }
     ],
     "imageUrl": "https://cdn.karaca.com/rcman/cw1390h1390q90gm/image/banner/deneme/000001000251856002-1.png"
@@ -213,13 +232,15 @@
         "capacity": 0.75,
         "heatRetention": "Sıcak: 20 saat, Soğuk: 25 saat, Buz: 96 saat",
         "weight": "512g",
-        "dimensions": "278 × 81 × 81 mm"
+        "dimensions": "278 × 81 × 81 mm",
+        "price": "3.329 TL"
       },
       {
         "capacity": 1,
         "heatRetention": "Sıcak: 25 saat, Soğuk: 27 saat, Buz: 120 saat",
         "weight": "670g",
-        "dimensions": "303 × 88 × 88 mm"
+        "dimensions": "303 × 88 × 88 mm",
+        "price": "Stokta Yok"
       }
     ],
     "imageUrl": "https://mountainhouse.cl/wp-content/uploads/2023/10/Web_JPG-Adventure_Slim_Bottle_25oz_Polar_White___281_2920230718-4867-6dnsjt_5000x.jpg"
@@ -234,19 +255,22 @@
         "capacity": 0.47,
         "heatRetention": "Soğuk: 8 saat, Buz: 40 saat",
         "weight": "320g",
-        "dimensions": "90 × 85 × 210 mm"
+        "dimensions": "90 × 85 × 210 mm",
+        "price": "2.599 TL"
       },
       {
         "capacity": 0.7,
         "heatRetention": "Soğuk: 10 saat, Buz: 72 saat",
         "weight": "390g",
-        "dimensions": "-"
+        "dimensions": "-",
+        "price": "2.789 TL"
       },
       {
         "capacity": 1.06,
         "heatRetention": "-",
         "weight": "-",
-        "dimensions": "-"
+        "dimensions": "-",
+        "price": "Stokta Yok"
       }
     ],
     "imageUrl": "https://img.pzrmcdn.com/mnresize/1180/1182/asset/1210001906099/images/stanleytheiceflowflipstrawlid20pipetlitermos106lthotcoral-1e1693bd4-c7f2-4655-ef8b-08ddc27a73a3.jpg"
@@ -261,19 +285,22 @@
         "capacity": 0.47,
         "heatRetention": "Soğuk: 7 saat, Buz: 30 saat",
         "weight": "320g",
-        "dimensions": "76 × 76 × 203 mm"
+        "dimensions": "76 × 76 × 203 mm",
+        "price": "1.999 TL"
       },
       {
         "capacity": 0.7,
         "heatRetention": "Sıcak: 8 saat, Soğuk: 12 saat, Buz: 40 saat",
         "weight": "420g",
-        "dimensions": "76 × 76 × 276 mm"
+        "dimensions": "76 × 76 × 276 mm",
+        "price": "Stokta Yok"
       },
       {
         "capacity": 1.06,
         "heatRetention": "Soğuk: 18 saat, Buz: 60 saat",
         "weight": "530g",
-        "dimensions": "87 × 87 × 290 mm"
+        "dimensions": "87 × 87 × 290 mm",
+        "price": "2.499 TL"
       }
     ],
     "imageUrl": "https://cyr-adventures.com/wp-content/uploads/2023/09/Fli-2.png"

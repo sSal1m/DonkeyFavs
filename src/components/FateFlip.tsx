@@ -68,8 +68,8 @@ export default function FateFlip({ modelsCount, onDecision }: FateFlipProps) {
           <div className="perspective-1000 w-32 h-32 sm:w-40 sm:h-40 relative mb-12">
             <div
               className={`w-full h-full relative preserve-3d transition-transform ${isFlipping
-                  ? (result === "heads" ? "animate-flip-heads" : "animate-flip-tails")
-                  : (result === "tails" ? "rotate-y-180" : "")
+                ? (result === "heads" ? "animate-flip-heads" : "animate-flip-tails")
+                : (result === "tails" ? "rotate-y-180" : "")
                 }`}
             >
               {/* Heads Face */}

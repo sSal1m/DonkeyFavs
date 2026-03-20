@@ -58,11 +58,11 @@ export default function TermosRadarChart({
       </h3>
       <div className="h-[300px] w-full sm:h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
-          <RadarChart cx="50%" cy="50%" outerRadius="75%" data={data}>
+          <RadarChart cx="50%" cy="50%" outerRadius="70%" data={data}>
             <PolarGrid stroke="rgba(0, 212, 255, 0.2)" />
             <PolarAngleAxis 
               dataKey="subject" 
-              tick={{ fill: "#fff", fontSize: 11, className: "drop-shadow-sm font-semibold", dy: 4 }} 
+              tick={{ fill: "#fff", fontSize: 10, className: "drop-shadow-sm font-semibold", dy: 2 }} 
             />
             <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
             

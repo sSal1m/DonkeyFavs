@@ -33,6 +33,7 @@ export default function ProductDetailPage() {
   const inCompare = isInCompare(model.slug);
 
   const specs = [
+    { label: "Fiyat", value: variant.price || "Fiyat bilgisi çekilemedi" },
     { label: "Kapasite", value: formatCapacity(variant.capacity) },
     { label: "Isı Koruması", value: formatValue(variant.heatRetention) },
     { label: "Kapak Tipi", value: formatValue(model.lidType) },
@@ -70,6 +71,10 @@ export default function ProductDetailPage() {
             <h1 className="mb-2 text-2xl font-extrabold leading-tight text-text-primary sm:text-3xl">
               {model.name}
             </h1>
+
+            <div className="mb-6 text-3xl font-bold text-accent">
+              {variant.price || "Fiyat bilgisi çekilemedi"}
+            </div>
 
             {/* Variant Selector */}
             {model.variants.length > 1 && (
