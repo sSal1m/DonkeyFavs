@@ -7,6 +7,7 @@ import { useVariant } from "@/context/VariantContext";
 import { getModelBySlug, formatCapacity, formatValue } from "@/lib/helpers";
 import type { Model } from "@/lib/helpers";
 import TermosRadarChart from "@/components/TermosRadarChart";
+import FateFlip from "@/components/FateFlip";
 
 const SPEC_ROWS = [
   { key: "capacity", label: "Kapasite" },
@@ -40,6 +41,7 @@ function getSpecValue(model: Model, variantIdx: number, key: string): string {
 export default function ComparePage() {
   const { compareList, removeFromCompare, clearCompare } = useCompare();
   const { getActiveVariant, setActiveVariant } = useVariant();
+  const [highlightedIndex, setHighlightedIndex] = React.useState<number | null>(null);
 
   const models = compareList
     .map((slug) => getModelBySlug(slug))
@@ -97,6 +99,11 @@ export default function ComparePage() {
           />
         )}
 
+        <FateFlip
+          modelsCount={models.length}
+          onDecision={setHighlightedIndex}
+        />
+
         {/* Comparison Table */}
         <div className="glass-card overflow-hidden p-0">
           <div className="compare-table-wrapper">
@@ -106,10 +113,14 @@ export default function ComparePage() {
                   <th className="min-w-[120px] max-w-[140px] border-r border-navy-border bg-navy-surface px-4 py-4 text-left text-xs font-semibold uppercase tracking-wider text-text-muted sm:min-w-[160px]">
                     Özellik
                   </th>
-                  {models.map((model) => (
+                  {models.map((model, idx) => (
                     <th
                       key={model.slug}
-                      className="min-w-[200px] px-4 py-4 text-left sm:min-w-[240px]"
+                      className={`min-w-[200px] px-4 py-4 text-left sm:min-w-[240px] transition-all duration-700 ${
+                        highlightedIndex === idx
+                          ? "glow-winner relative z-10 rounded-t-xl"
+                          : ""
+                      }`}
                     >
                       <div className="flex flex-col gap-2">
                         <div className="flex items-start justify-between gap-2">
@@ -170,12 +181,19 @@ export default function ComparePage() {
                     <td className="min-w-[120px] max-w-[140px] border-r border-navy-border px-4 py-3 font-medium text-text-muted whitespace-nowrap sm:min-w-[160px]">
                       {spec.label}
                     </td>
-                    {models.map((model) => {
+                    {models.map((model, mIdx) => {
                       const activeIdx = getActiveVariant(model.slug);
                       return (
                         <td
                           key={model.slug}
-                          className="min-w-[200px] px-4 py-3 text-text-primary sm:min-w-[240px]"
+                          className={`min-w-[200px] px-4 py-3 text-text-primary sm:min-w-[240px] transition-all duration-700 ${
+                            highlightedIndex === mIdx
+                              ? "glow-winner relative z-10 border-l border-r border-accent " +
+                                (rowIdx === SPEC_ROWS.length - 1
+                                  ? "rounded-b-xl border-b"
+                                  : "")
+                              : ""
+                          }`}
                         >
                           {getSpecValue(model, activeIdx, spec.key)}
                         </td>
