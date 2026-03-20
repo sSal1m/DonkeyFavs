@@ -4,6 +4,7 @@ import "./globals.css";
 import { CompareProvider } from "@/context/CompareContext";
 import { VariantProvider } from "@/context/VariantContext";
 import Header from "@/components/Header";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
             <footer className="border-t border-navy-border bg-navy-darkest/80 py-6 text-center text-sm text-text-muted">
               <p>© 2026 DonkeyFavs — Sea</p>
             </footer>
+            <ScrollToTopButton />
           </VariantProvider>
         </CompareProvider>
       </body>
