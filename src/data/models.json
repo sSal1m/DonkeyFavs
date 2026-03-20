@@ -18,12 +18,13 @@
         "dimensions": "202 x 69 x 69 mm"
       },
       {
-        "capacity": 0.60,
+        "capacity": 0.6,
         "heatRetention": "Sıcak: 8 saat, Soğuk: 12 saat, Buz: 40 saat",
         "weight": "272g",
         "dimensions": "69 × 71 × 241 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://www.atlaskamp.com/stanley-the-aerolight-transit-termos-bardak-047-lt-10-10787-121-stanley-10-10787-121-92565-77-O.jpg"
   },
   {
     "name": "IceFlow Flip Straw Termos",
@@ -32,7 +33,7 @@
     "leakProof": "Evet",
     "variants": [
       {
-        "capacity": 0.60,
+        "capacity": 0.6,
         "heatRetention": "Soğuk: 7 saat, Buz: 35 saat",
         "weight": "450g",
         "dimensions": "106 × 101 × 199 mm"
@@ -43,7 +44,8 @@
         "weight": "600g",
         "dimensions": "90 × 104 × 248 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://www.stanley.no/pub_images/original/45267.png"
   },
   {
     "name": "Quencher ProTour Flip Straw Termos",
@@ -52,7 +54,7 @@
     "leakProof": "Evet",
     "variants": [
       {
-        "capacity": 0.60,
+        "capacity": 0.6,
         "heatRetention": "Soğuk: 8 saat, Buz: 30 saat",
         "weight": "381g",
         "dimensions": "134 × 90 × 192 mm"
@@ -63,7 +65,8 @@
         "weight": "680g",
         "dimensions": "148 × 100 × 274 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://stanleybottleinc.com/wp-content/uploads/2025/10/Web_PNG_Square-The_Quencher_ProTour_Flip_Straw_Tumbler_14OZ_-_Cashmere_-_Front.png"
   },
   {
     "name": "Quencher Pipetli Termos Bardak",
@@ -72,12 +75,13 @@
     "leakProof": "Evet",
     "variants": [
       {
-        "capacity": 0.60,
+        "capacity": 0.6,
         "heatRetention": "-",
         "weight": "320g",
         "dimensions": "135 × 71 × 228 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://cdn.karaca.com/image/banner/153.09.01.7360.jpg"
   },
   {
     "name": "Quencher H2.O FlowState Tumbler",
@@ -97,7 +101,8 @@
         "weight": "650g",
         "dimensions": "148 × 100 × 318 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://m.media-amazon.com/images/I/713M33yoSlL._AC_SL1500_.jpg"
   },
   {
     "name": "Quencher H2.0 Fluted Tumbler",
@@ -106,7 +111,7 @@
     "leakProof": "Evet",
     "variants": [
       {
-        "capacity": 0.60,
+        "capacity": 0.6,
         "heatRetention": "-",
         "weight": "360g",
         "dimensions": "135 × 71 × 228 mm"
@@ -123,7 +128,8 @@
         "weight": "650g",
         "dimensions": "148 × 100 × 318 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://scene7.zumiez.com/is/image/zumiez/product_main_medium/Stanley-The-Quencher-H2.0-Wisteria-Shine-Fluted-Tumbler-40-oz-_400864-front-US.jpg"
   },
   {
     "name": "Stanley Wellspring Bottle",
@@ -132,12 +138,13 @@
     "leakProof": "Evet",
     "variants": [
       {
-        "capacity": 0.70,
+        "capacity": 0.7,
         "heatRetention": "Soğuk: 12 saat, Buz: 40 saat",
         "weight": "386g",
         "dimensions": "80 × 79 × 250 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://www.stanley.no/pub_images/original/50981.png"
   },
   {
     "name": "The Everyday Suburban Mug",
@@ -157,7 +164,8 @@
         "weight": "-",
         "dimensions": "118 × 99 × 196 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://cdn.cookoutstanley.com/cdn/2138/2025/11/11/STANLEY-The-Everyday-Suburban-Mug--16-oz--Drink-Through-Lid--Cup-for-Coffee-Tea-and-Drinks--Insulated-Stainless-Steel-Coffee-Mug--BPAFree--Black-20Dri-6464108-5865.jpg"
   },
   {
     "name": "The All Day Slim Su Sisesi",
@@ -172,12 +180,13 @@
         "dimensions": "73 × 73 × 264 mm"
       },
       {
-        "capacity": 0.60,
+        "capacity": 0.6,
         "heatRetention": "Sıcak: 4 saat, Soğuk: 11 saat",
         "weight": "290g",
         "dimensions": "73 × 73 × 264 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://optimage.exxeselection.com/product/cache/1200x1800_stanley-the-all-day-slim-bottle-060-lt-su-sisesi-unisex-termos-10-12069-krem-3111424-59-B.jpg"
   },
   {
     "name": "IceFlow Fast Flow Soguk Su Termosu",
@@ -186,12 +195,13 @@
     "leakProof": "Evet",
     "variants": [
       {
-        "capacity": 0.70,
+        "capacity": 0.7,
         "heatRetention": "Soğuk: 10 saat, Buz: 48 saat",
         "weight": "400g",
         "dimensions": "100 × 79 × 284 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://cdn.karaca.com/rcman/cw1390h1390q90gm/image/banner/deneme/000001000251856002-1.png"
   },
   {
     "name": "Adventure To-Go Termos",
@@ -206,12 +216,13 @@
         "dimensions": "278 × 81 × 81 mm"
       },
       {
-        "capacity": 1.00,
+        "capacity": 1,
         "heatRetention": "Sıcak: 25 saat, Soğuk: 27 saat, Buz: 120 saat",
         "weight": "670g",
         "dimensions": "303 × 88 × 88 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://mountainhouse.cl/wp-content/uploads/2023/10/Web_JPG-Adventure_Slim_Bottle_25oz_Polar_White___281_2920230718-4867-6dnsjt_5000x.jpg"
   },
   {
     "name": "IceFlow Flip Straw 2.0 Pipetli Termos",
@@ -226,7 +237,7 @@
         "dimensions": "90 × 85 × 210 mm"
       },
       {
-        "capacity": 0.70,
+        "capacity": 0.7,
         "heatRetention": "Soğuk: 10 saat, Buz: 72 saat",
         "weight": "390g",
         "dimensions": "-"
@@ -237,7 +248,8 @@
         "weight": "-",
         "dimensions": "-"
       }
-    ]
+    ],
+    "imageUrl": "https://img.pzrmcdn.com/mnresize/1180/1182/asset/1210001906099/images/stanleytheiceflowflipstrawlid20pipetlitermos106lthotcoral-1e1693bd4-c7f2-4655-ef8b-08ddc27a73a3.jpg"
   },
   {
     "name": "Go Quick Flip Water Bottle",
@@ -252,7 +264,7 @@
         "dimensions": "76 × 76 × 203 mm"
       },
       {
-        "capacity": 0.70,
+        "capacity": 0.7,
         "heatRetention": "Sıcak: 8 saat, Soğuk: 12 saat, Buz: 40 saat",
         "weight": "420g",
         "dimensions": "76 × 76 × 276 mm"
@@ -263,6 +275,7 @@
         "weight": "530g",
         "dimensions": "87 × 87 × 290 mm"
       }
-    ]
+    ],
+    "imageUrl": "https://cyr-adventures.com/wp-content/uploads/2023/09/Fli-2.png"
   }
 ]

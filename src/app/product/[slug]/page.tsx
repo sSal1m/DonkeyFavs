@@ -56,12 +56,12 @@ export default function ProductDetailPage() {
         {/* Mobile-first: Image on top, then specs. Desktop: side by side */}
         <div className="grid gap-6 md:grid-cols-2 md:gap-10">
           {/* Image */}
-          <div className="glass-card flex items-center justify-center overflow-hidden p-0">
+          <div className="glass-card flex aspect-square w-full items-center justify-center overflow-hidden bg-navy-card/20 p-6 sm:aspect-auto sm:h-full min-h-[300px]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`https://placehold.co/600x500/0d2137/00d4ff?text=${encodeURIComponent(model.name.split(" ").slice(0, 2).join(" "))}`}
+              src={model.imageUrl || `https://placehold.co/600x500/0d2137/00d4ff?text=${encodeURIComponent(model.name)}`}
               alt={model.name}
-              className="h-auto w-full object-cover"
+              className="h-full w-full object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105"
             />
           </div>
 

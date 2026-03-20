@@ -20,14 +20,14 @@ export default function ProductCard({ model }: ProductCardProps) {
   const inCompare = isInCompare(model.slug);
 
   return (
-    <div className="glass-card flex flex-col overflow-hidden">
-      {/* Image placeholder */}
-      <div className="relative flex h-48 items-center justify-center bg-navy-card">
+    <div className="glass-card flex h-full flex-col overflow-hidden">
+      {/* Image display */}
+      <div className="relative flex aspect-[3/4] w-full items-center justify-center overflow-hidden bg-navy-card/40 p-4">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={`https://placehold.co/600x400/0d2137/00d4ff?text=${encodeURIComponent(model.name.split(" ").slice(0, 2).join(" "))}`}
+          src={model.imageUrl || `https://placehold.co/600x400/0d2137/00d4ff?text=${encodeURIComponent(model.name)}`}
           alt={model.name}
-          className="h-full w-full object-cover opacity-80 transition-opacity hover:opacity-100"
+          className="h-full w-full object-contain drop-shadow-lg transition-transform duration-300 hover:scale-105"
           loading="lazy"
         />
         {inCompare && (

@@ -13,6 +13,7 @@ export interface Model {
   lidType: string;
   leakProof: string;
   variants: Variant[];
+  imageUrl?: string;
 }
 
 export function slugify(name: string): string {
